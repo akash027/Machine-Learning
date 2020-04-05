@@ -30,7 +30,7 @@ print("MSE : ",math.sqrt(regression_model_mse))
 print("R squared value : ", model.score(x,y))
 
 
-#we can get the bias and variance values after the model fit
+#we can get the intercept and slope values after the model fit
 
 print(model.coef_[0])
 print(model.intercept_[0])
