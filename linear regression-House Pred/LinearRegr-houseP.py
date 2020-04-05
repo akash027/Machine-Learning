@@ -40,4 +40,13 @@ print(model.intercept_[0])
 
 plt.scatter(x,y, color='green')
 plt.plot(x, model.predict(x), color='black')
+plt.title("Linear Regression")
+plt.xlabel("Size")
+plt.ylabel("Price")
+plt.show()
+
+
+#predicting the prices
+print("Prediction by the model: ", model.predict([[2000]]))
+
 
