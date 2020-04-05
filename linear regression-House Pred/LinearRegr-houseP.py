@@ -8,7 +8,7 @@ import math
 
 #read .csv into a Dataframe
 
-dataset = pd.read_csv("/home/sky/Videos/Introduction to Machine Learning & Deep Learning in Python/19. Course Materials (DOWNLOADS)/1.1 PythonMachineLearning.zip/Datasets/Datasets/house_prices.csv")
+dataset = pd.read_csv("house_prices.csv")
 size = dataset['sqft_living']
 price = dataset['price']
 
