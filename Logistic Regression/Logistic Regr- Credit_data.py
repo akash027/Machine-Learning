@@ -5,7 +5,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 import os
 
-creditData = pd.read_csv("/home/sky/Documents/machine learning/Logistic Regression/credit_data.csv")
+creditData = pd.read_csv("/credit_data.csv")
 
 print(creditData.head())
 print(creditData.describe())
