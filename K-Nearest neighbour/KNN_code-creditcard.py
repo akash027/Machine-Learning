@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 from sklearn import preprocessing
 
 
-data = pd.read_csv("/home/sky/Documents/1.machine learning/K-Nearest neighbour/credit_data.csv")
+data = pd.read_csv("/credit_data.csv")
 
 print(data.head())
 
