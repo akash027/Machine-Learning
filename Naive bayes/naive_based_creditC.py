@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
-data = pd.read_csv("/home/sky/Documents/1.machine learning/K-Nearest neighbour/credit_data.csv")
+data = pd.read_csv("/credit_data.csv")
 
 print(data.head())
 
