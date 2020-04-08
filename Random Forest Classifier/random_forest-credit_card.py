@@ -5,7 +5,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
 
-credit_card = pd.read_csv("/home/sky/Documents/1.machine learning/Random Forest Classifier/credit_data.csv")
+credit_card = pd.read_csv("/credit_data.csv")
 
 print(credit_card.head())
 
