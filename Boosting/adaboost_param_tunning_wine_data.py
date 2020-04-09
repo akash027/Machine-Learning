@@ -6,7 +6,7 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
 
-data = pd.read_csv("/home/sky/Documents/1.machine learning/Boosting/wine.csv", sep=";")
+data = pd.read_csv("/wine.csv", sep=";")
 
 print(data.head())
 
