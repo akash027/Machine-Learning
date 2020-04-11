@@ -32,7 +32,7 @@ def show_eigenfaces(pca):
 
 # Read dataset and visualize it
 
-df = pd.read_csv("/home/sky/Documents/1.machine learning/PCA implementation- Face Recognition/face_data.csv")
+df = pd.read_csv("/face_data.csv")
 
 print(df.head())
 
