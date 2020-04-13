@@ -5,7 +5,7 @@ from sklearn.model_selection import GridSearchCV
 
 
 # Load Dataset
-data = pd.read_csv("/home/sky/Documents/1.machine learning/Spam calssification/spam.csv")
+data = pd.read_csv("/spam.csv")
 print(data.head())
 
 
