@@ -5,8 +5,8 @@ import glob
 
 
 label = "Parasitized"
-dirList = glob.glob("/home/sky/Documents/1.machine learning/Malaria Detection/malaria-dataset-processed/cell_images/train/"+label+"/*.png")
-file = open("/home/sky/Documents/1.machine learning/Malaria Detection/dataset.csv","a")
+dirList = glob.glob("/cell_images/"+label+"/*.png")
+file = open("/dataset.csv","a")
 
 
 for img_path in dirList:
@@ -42,10 +42,6 @@ for img_path in dirList:
 
 	
 	file.write("\n")
-
-
-
-
 
 
 
