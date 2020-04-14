@@ -7,7 +7,7 @@ import joblib
 
 # load dataset
 
-data = pd.read_csv("/home/sky/Documents/1.machine learning/Malaria Detection/dataset.csv")
+data = pd.read_csv("/dataset.csv")
 
 print(data.head())
 
